@@ -1,0 +1,125 @@
+---
+title: "Statistical display of firearms reported"
+author: "Jiayi Du"
+date: "2022/2/5"
+output: 
+  bookdown::pdf_document2:
+    fig_caption: yes
+thanks: "Code and data are available at: https://github.com/dujiayi1/Statistical-display-of-firearms-reported"
+abstract: "Firearms datasets are important tools for determining police funding and the allocation of police resources. And this report classified the data and visiualized on firearms in Toronto to: (1) assess firearm trends in and (2), visualized the classification of the sum of firearms of different categories or types in each year."
+bibliography: references.bib
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(knitr)
+library(dplyr)
+library(knitr)
+library(bookdown)
+library(kableExtra)
+library(ggplot2) 
+```
+
+
+# Introduction
+
+The Toronto’s Police Service Annual Statistical Report (ASR) is a comprehensive overview of police related statistics including reported crimes, victims of crime, search of persons, firearms, traffic collisions, personnel, budget, communications, public complaints, regulated interactions and other administrative information.
+
+Through the statistical analysis of firearms, information such as firearms type can be more intuitively obtained, which can help the police to better coordinate and allocate resources in all aspects.
+
+Because of the importance of firearms data, it is necessary to understand how they are described and what the explanations behind them are.
+
+The dataset will be analyzed in R (R Core Team 2020) primarily using the tidyverse (Wickham et al. 2019) and dplyr (Wickham et al. 2021) packages. Figures and tables will be created with ggplot2 (Wickham 2016) and kableextra (Zhu 2020). The packages knitr (Xie 2021a), bookdown (Xie 2020), and tinytex (Xie 2021b) are used to generate the R markdown report.
+
+
+# Data
+
+## Data source
+
+Datasets from the ASR have been openly available to the public and can be accessed through the Toronto Police Service Public Safety Data Portal or the City of Toronto Open Data Portal.This dataset provides a breakdown of statistics pertaining to firearms seizures made by the Toronto Police Service from 2014 – 2019. Dataset analyzed in this report was obtained in csv format from the City of Toronto Open Data Portal using the R package opendatatoronto (Gelfand 2020). The dataset was last updated on August 12th, 2021.
+
+The information is divided into various categories and subtypes accordingly. The description of the categories is provided below:
+
+Firearm Type: Breakdown of firearm type for every firearm that was seized by the TPS in 2019
+
+Crime Guns: A crime gun is “any firearm that has been or suspected to have been used in in a criminal offence; any firearm that is obtained, possessed, or intended to be used to facilitate criminal activity; any firearm that has had a serial number removed, altered or obliterated; and any weapon that has been adapted for use as a firearm” (Toronto Police Service Governance Definitions and Service Procedure 09‐03).
+
+Crime Guns – Firearm Type Crime guns seized by TPS in 2019, broken down by type of firearm
+
+Crime Guns – Firearm Classification Crime guns seized by TPS in 2019, broken down by firearm classification
+
+Stolen Firearms – Recovered by TPS in 2019 Breakdown of firearms recovered by TPS by jurisdiction a firearm was reported stolen
+
+Firearms Reported Stolen and Recovered by Firearm Type: Breakdown of firearm types for those reported stolen and recovered by TPS in 2019
+
+TPS Firearm Thefts by Premise Type: Breakdown of premise types where a firearm was stolen
+
+Firearm thefts reported to TPS – Type of Firearm Stolen Breakdown of firearm type stolen
+
+
+## Data Characteristic
+There are totally 356 observation in the table and 6 attributes, Index_ , Year(Year of firearm seizure), Category(Description of table/section), Type(breakdown of datatype), Count_(Count of firearms), ObjectId. Among them, index and objectId were identical numerical identifiers which were removed prior to analysis. A sample view of the dataset is displayed below.
+
+```{r echo=TRUE, , ehco=FALSE}
+data_firearms<-read.csv("Miscellaneous_Firearms_ASR_F_TBL_003.csv")
+x<-head(data_firearms,n=10L)
+x
+```
+
+
+### Firearms Counts
+
+Through the table, it is not difficult to find that there is no specific count data for each year. So I calculate the count for each year and graph it.
+
+```{r,echo=FALSE}
+sum_firearms<-aggregate(data_firearms$Count_,by=list(year=data_firearms$Year),sum)
+ggplot(sum_firearms,aes(x=year,y=x))+geom_bar(stat = "identity",position = "dodge")
+```
+It's not hard to find that from 2014 to 2018, the sum were stable while 2019 had the most firearms and there was a sharp decrease in 2020.
+
+
+### Category
+
+The category variable contains information on the type of firearms reported to the police. The dataset lists 8 main offense categories: Firearm Types Stolen & Recovered, Firearms Seized, Guns Reported Stolen to TPS, Firearm Thefts - Premise Type, Gun Seizures, Crime Guns - Type, Crime Guns - Class, Recovered Firearms. 
+The figure below displays the distributions of reported firearms between 2014-2020 by category.
+
+```{r, echo=FALSE,fig.cap="Number of firearms by Category and Year"}
+sum_category<-aggregate(data_firearms$Count_,by=list(data_firearms$Year,data_firearms$Category),sum)
+ggplot(sum_category,aes(x=Group.1,y=x,color=Group.2))+geom_bar(stat = "identity",position = "dodge")+theme_light() +labs(x = "Year", y = "Number of firearms", 
+ title = "Gun Seizures Are the Most Frequently Reported Category firearms") +guides(color = guide_legend(override.aes = list(size=3)))+
+ theme(plot.title = element_text(face = "bold"))
+```
+\newpage
+
+
+### Type
+
+In addition, there were different types of firearms. The table below displays the the number of firearms reported by year for each type.
+
+```{r,echo=FALSE}
+sum_type<-aggregate(data_firearms$Count_,by=list(data_firearms$Year,data_firearms$Type),sum)
+type_table<-data.frame(Year=2014:2020,AirGun =sum_type[1:7,3], Antique=sum_type[8:14,3], CombinationGun=c(sum_type[15:18,3],"0",sum_type[19:20,3]),Commercial=sum_type[21:27,3],CommercialStorageFacility=c("0","0","0","0","0","2","0"),CommercialVersion=c("0","0","0",sum_type[29:32,3]),Crime=sum_type[33:39,3],DeemedNonFirearm=sum_type[40:46,0],Derringer=c("0","0","0",sum_type[47:50,3]),Handgun=sum_type[51:57,3],Intransit=c("1","0","0","0","0","0","0"),MachineGun=c("1","0","1","1","0","1","0"),NonCrime=sum_type[64:70,3],NonRestricted=sum_type[71:77,3],Other=sum_type[78:84,3],OutsideToronto=sum_type[85:91,3],Pistol=sum_type[92:98,3],Prohibited=sum_type[99:105,3],Replica=sum_type[106:112,3],Residential=sum_type[113:119,3],ResidentialStorageUnit=c("0","0","0","0","0","2","0"),Restricted=sum_type[121:127,3],Revolver=sum_type[128:134,3],Rifle=sum_type[135:141,3],SawedoffRifle=sum_type[142:148,3],SawedoffShotgun=c(sum_type[149:153,3],"36","27"),School=c("0","0","0","0","0","0","1"),Shotgun=sum_type[159:165,3],StartersPistol=sum_type[166:172,3],Street=c("0","0","1","0","0","0","0"),SubmachineGun=sum_type[174:180,3],Taser=c("1","0","0","0","0","0","0"),Toronto=sum_type[182:188,3],ToyGun=sum_type[189:195,3],Vehicle=c("0",sum_type[197:202,3]) )
+knitr::kable(type_table,format = "pandoc")
+```
+
+\newpage
+
+# Reference
+
+Gelfand, Sharla. 2020. Opendatatoronto: Access the City of Toronto Open Data Portal. <https://CRAN.R.project.org/package=opendatatoronto>.
+
+Wickham, Hadley. 2016. Ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York. <https://ggplot2.tidyverse.org>.
+
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. “Welcome to the tidyverse.” Journal of Open Source Software 4
+(43): 1686. <https://doi.org/10.21105/joss.01686>.
+
+Wickham, Hadley, Romain François, Lionel Henry, and Kirill Müller. 2021. Dplyr: A Grammar of Data Manipulation. <https://CRAN.R-project.org/package=dplyr>.
+
+Xie, Yihui. 2020. Bookdown: Authoring Books and Technical Documents with R Markdown. <https://github.com/rstudio/bookdown>.
+
+———. 2021a. Knitr: A General-Purpose Package for Dynamic Report Generation in R. <https://yihui.org/knitr/>.
+
+———. 2021b. Tinytex: Helper Functions to Install and Maintain Tex Live, and Compile Latex Documents.
+<https://github.com/yihui/tinytex>.
