@@ -1,0 +1,357 @@
+Index_,Year,Category,Type,Count_,ObjectId
+52,2020,Firearm Types Stolen & Recovered,Shotgun,3,1
+53,2019,Firearms Seized,Air Gun,643,2
+54,2019,Firearms Seized,Pistol,963,3
+55,2019,Firearms Seized,Rifle,1672,4
+56,2019,Firearms Seized,Shotgun,1024,5
+57,2019,Firearms Seized,Revolver,498,6
+58,2019,Firearms Seized,Other,66,7
+59,2019,Firearms Seized,Toy Gun,30,8
+60,2019,Firearms Seized,Sawed-off Shotgun,18,9
+61,2019,Firearms Seized,Starter's Pistol,57,10
+62,2019,Firearms Seized,Antique,33,11
+63,2019,Firearms Seized,Sawed-off Rifle,7,12
+64,2019,Firearms Seized,Replica,20,13
+65,2019,Firearms Seized,Derringer,14,14
+66,2019,Firearms Seized,Commercial Version,11,15
+67,2019,Firearms Seized,Submachine Gun,9,16
+68,2019,Firearms Seized,Machine Gun,2,17
+69,2019,Firearms Seized,Combination Gun,16,18
+70,2019,Guns Reported Stolen to TPS,Air Gun,6,19
+71,2019,Guns Reported Stolen to TPS,Handgun,25,20
+72,2019,Guns Reported Stolen to TPS,Shotgun,6,21
+73,2019,Guns Reported Stolen to TPS,Rifle,15,22
+74,2019,Firearm Thefts - Premise Type,Residential,6,23
+75,2019,Firearm Thefts - Premise Type,Vehicle,5,24
+76,2019,Firearm Thefts - Premise Type,Commercial,2,25
+77,2019,Firearm Thefts - Premise Type,Commercial Storage Facility,2,26
+78,2019,Firearm Thefts - Premise Type,Residential Storage Unit,2,27
+79,2019,Gun Seizures,Crime,693,28
+80,2019,Gun Seizures,Non-Crime,4390,29
+81,2019,Crime Guns - Type,Pistol,402,30
+82,2019,Crime Guns - Type,Air Gun,103,31
+83,2019,Crime Guns - Type,Rifle,50,32
+84,2019,Crime Guns - Type,Revolver,47,33
+85,2019,Crime Guns - Type,Shotgun,25,34
+86,2019,Crime Guns - Type,Sawed-off Shotgun,18,35
+87,2019,Crime Guns - Type,Other,15,36
+88,2019,Crime Guns - Type,Toy Gun,11,37
+89,2019,Crime Guns - Type,Sawed-off Rifle,7,38
+90,2019,Crime Guns - Type,Antique,7,39
+91,2019,Crime Guns - Type,Derringer,2,40
+92,2019,Crime Guns - Type,Submachine Gun,1,41
+93,2019,Crime Guns - Type,Starter's Pistol,4,42
+94,2019,Crime Guns - Type,Replica,1,43
+95,2019,Crime Guns - Class,Prohibited,331,44
+96,2019,Crime Guns - Class,Deemed Non-Firearm,129,45
+97,2019,Crime Guns - Class,Restricted,155,46
+98,2019,Crime Guns - Class,Non-Restricted,71,47
+99,2019,Crime Guns - Class,Antique,7,48
+100,2019,Recovered Firearms,Toronto,6,49
+101,2019,Recovered Firearms,Outside Toronto,41,50
+102,2019,Firearm Types Stolen & Recovered,Pistol,31,51
+154,2017,Firearms Seized,Rifle,373,52
+155,2017,Firearms Seized,Pistol,312,53
+156,2017,Firearms Seized,Shotgun,219,54
+157,2017,Firearms Seized,Revolver,103,55
+158,2017,Firearms Seized,Other,54,56
+159,2017,Firearms Seized,Starter's Pistol,24,57
+160,2017,Firearms Seized,Sawed-off Shotgun,22,58
+161,2017,Firearms Seized,Toy Gun,18,59
+162,2017,Firearms Seized,Antique,13,60
+163,2017,Firearms Seized,Replica,6,61
+164,2017,Firearms Seized,Commercial Version,6,62
+165,2017,Firearms Seized,Sawed-off Rifle,5,63
+166,2017,Firearms Seized,Derringer,4,64
+167,2017,Firearms Seized,Submachine Gun,2,65
+168,2017,Firearms Seized,Combination Gun,2,66
+169,2017,Firearms Seized,Machine Gun,1,67
+170,2017,Guns Reported Stolen to TPS,Air Gun,19,68
+171,2017,Guns Reported Stolen to TPS,Handgun,8,69
+172,2017,Guns Reported Stolen to TPS,Shotgun,4,70
+173,2017,Guns Reported Stolen to TPS,Rifle,4,71
+174,2017,Guns Reported Stolen to TPS,Starter's Pistol,1,72
+175,2017,Firearm Thefts - Premise Type,Residential,6,73
+176,2017,Firearm Thefts - Premise Type,Vehicle,3,74
+177,2017,Firearm Thefts - Premise Type,Commercial,2,75
+178,2017,Firearm Thefts - Premise Type,Other,1,76
+179,2017,Gun Seizures,Crime,722,77
+180,2017,Gun Seizures,Non-Crime,1003,78
+181,2017,Crime Guns - Type,Pistol,233,79
+182,2017,Crime Guns - Type,Air Gun,216,80
+183,2017,Crime Guns - Type,Revolver,75,81
+184,2017,Crime Guns - Type,Rifle,73,82
+185,2017,Crime Guns - Type,Shotgun,43,83
+186,2017,Crime Guns - Type,Other,26,84
+187,2017,Crime Guns - Type,Sawed-off Shotgun,22,85
+188,2017,Crime Guns - Type,Toy Gun,10,86
+189,2017,Crime Guns - Type,Antique,7,87
+190,2017,Crime Guns - Type,Commercial Version,6,88
+191,2017,Crime Guns - Type,Sawed-off Rifle,5,89
+192,2017,Crime Guns - Type,Starter's Pistol,4,90
+193,2017,Crime Guns - Type,Derringer,2,91
+194,2017,Crime Guns - Class,Prohibited,233,92
+195,2017,Crime Guns - Class,Deemed Non-Firearm,246,93
+196,2017,Crime Guns - Class,Restricted,138,94
+197,2017,Crime Guns - Class,Non-Restricted,98,95
+198,2017,Crime Guns - Class,Antique,7,96
+199,2017,Recovered Firearms,Toronto,3,97
+200,2017,Recovered Firearms,Outside Toronto,36,98
+201,2017,Firearm Types Stolen & Recovered,Handgun,8,99
+202,2017,Firearm Types Stolen & Recovered,Rifle,4,100
+203,2017,Firearm Types Stolen & Recovered,Shotgun,4,101
+204,2017,Firearm Types Stolen & Recovered,Air Gun,19,102
+103,2019,Firearm Types Stolen & Recovered,Revolver,13,103
+104,2019,Firearm Types Stolen & Recovered,Rifle,2,104
+105,2019,Firearm Types Stolen & Recovered,Shotgun,1,105
+106,2018,Firearms Seized,Air Gun,650,106
+107,2018,Firearms Seized,Pistol,620,107
+108,2018,Firearms Seized,Rifle,469,108
+109,2018,Firearms Seized,Shotgun,253,109
+110,2018,Firearms Seized,Revolver,121,110
+111,2018,Firearms Seized,Other,60,111
+112,2018,Firearms Seized,Toy Gun,33,112
+113,2018,Firearms Seized,Sawed-off Shotgun,29,113
+114,2018,Firearms Seized,Starter's Pistol,20,114
+115,2018,Firearms Seized,Antique,16,115
+116,2018,Firearms Seized,Sawed-off Rifle,14,116
+117,2018,Firearms Seized,Replica,8,117
+118,2018,Firearms Seized,Derringer,4,118
+119,2018,Firearms Seized,Commercial Version,2,119
+120,2018,Firearms Seized,Submachine Gun,1,120
+121,2018,Guns Reported Stolen to TPS,Air Gun,5,121
+122,2018,Guns Reported Stolen to TPS,Handgun,10,122
+123,2018,Guns Reported Stolen to TPS,Shotgun,6,123
+124,2018,Guns Reported Stolen to TPS,Rifle,2,124
+125,2018,Firearm Thefts - Premise Type,Residential,9,125
+126,2018,Firearm Thefts - Premise Type,Vehicle,5,126
+127,2018,Firearm Thefts - Premise Type,Commercial,2,127
+128,2018,Gun Seizures,Crime,831,128
+129,2018,Gun Seizures,Non-Crime,1469,129
+130,2018,Crime Guns - Type,Pistol,429,130
+131,2018,Crime Guns - Type,Air Gun,157,131
+132,2018,Crime Guns - Type,Rifle,60,132
+133,2018,Crime Guns - Type,Revolver,56,133
+134,2018,Crime Guns - Type,Shotgun,31,134
+135,2018,Crime Guns - Type,Sawed-off Shotgun,29,135
+136,2018,Crime Guns - Type,Other,25,136
+137,2018,Crime Guns - Type,Toy Gun,16,137
+138,2018,Crime Guns - Type,Sawed-off Rifle,14,138
+139,2018,Crime Guns - Type,Antique,11,139
+140,2018,Crime Guns - Type,Derringer,2,140
+141,2018,Crime Guns - Type,Commercial Version,1,141
+142,2018,Crime Guns - Class,Prohibited,393,142
+143,2018,Crime Guns - Class,Deemed Non-Firearm,192,143
+144,2018,Crime Guns - Class,Restricted,155,144
+145,2018,Crime Guns - Class,Non-Restricted,80,145
+146,2018,Crime Guns - Class,Antique,11,146
+147,2018,Recovered Firearms,Toronto,3,147
+148,2018,Recovered Firearms,Outside Toronto,30,148
+149,2018,Firearm Types Stolen & Recovered,Pistol,21,149
+150,2018,Firearm Types Stolen & Recovered,Rifle,6,150
+151,2018,Firearm Types Stolen & Recovered,Revolver,5,151
+152,2018,Firearm Types Stolen & Recovered,Shotgun,1,152
+153,2017,Firearms Seized,Air Gun,561,153
+307,2014,Firearms Seized,Pistol,330,154
+308,2014,Firearms Seized,Shotgun,204,155
+309,2014,Firearms Seized,Revolver,156,156
+310,2014,Firearms Seized,Starter's Pistol,28,157
+311,2014,Firearms Seized,Toy Gun,27,158
+312,2014,Firearms Seized,Other,15,159
+313,2014,Firearms Seized,Replica,10,160
+314,2014,Firearms Seized,Sawed-off Shotgun,9,161
+315,2014,Firearms Seized,Combination Gun,6,162
+316,2014,Firearms Seized,Sawed-off Rifle,4,163
+317,2014,Firearms Seized,Submachine Gun,3,164
+318,2014,Firearms Seized,Antique,2,165
+319,2014,Firearms Seized,Machine Gun,1,166
+320,2014,Guns Reported Stolen to TPS,Handgun,8,167
+321,2014,Guns Reported Stolen to TPS,Shotgun,7,168
+322,2014,Guns Reported Stolen to TPS,Air Gun,6,169
+323,2014,Guns Reported Stolen to TPS,Rifle,4,170
+324,2014,Guns Reported Stolen to TPS,Replica,1,171
+325,2014,Guns Reported Stolen to TPS,Taser,1,172
+326,2014,Firearm Thefts - Premise Type,Residential,11,173
+327,2014,Firearm Thefts - Premise Type,Commercial,2,174
+328,2014,Firearm Thefts - Premise Type,In transit,1,175
+329,2014,Gun Seizures,Crime,557,176
+330,2014,Gun Seizures,Non-Crime,1075,177
+331,2014,Crime Guns - Type,Pistol,200,178
+332,2014,Crime Guns - Type,Air Gun,146,179
+333,2014,Crime Guns - Type,Rifle,69,180
+334,2014,Crime Guns - Type,Revolver,58,181
+335,2014,Crime Guns - Type,Shotgun,30,182
+336,2014,Crime Guns - Type,Toy Gun,16,183
+337,2014,Crime Guns - Type,Sawed-off Shotgun,9,184
+338,2014,Crime Guns - Type,Starter's Pistol,6,185
+339,2014,Crime Guns - Type,Other,6,186
+340,2014,Crime Guns - Type,Replica,5,187
+341,2014,Crime Guns - Type,Sawed-off Rifle,4,188
+342,2014,Crime Guns - Type,Combination Gun,4,189
+343,2014,Crime Guns - Type,Submachine Gun,2,190
+344,2014,Crime Guns - Type,Antique,2,191
+345,2014,Crime Guns - Class,Deemed Non-Firearm,182,192
+346,2014,Crime Guns - Class,Prohibited,174,193
+347,2014,Crime Guns - Class,Restricted,110,194
+348,2014,Crime Guns - Class,Non-Restricted,89,195
+349,2014,Crime Guns - Class,Antique,2,196
+350,2014,Recovered Firearms,Toronto,9,197
+351,2014,Recovered Firearms,Outside Toronto,17,198
+352,2014,Firearm Types Stolen & Recovered,Pistol,15,199
+353,2014,Firearm Types Stolen & Recovered,Rifle,5,200
+354,2014,Firearm Types Stolen & Recovered,Revolver,3,201
+355,2014,Firearm Types Stolen & Recovered,Submachine Gun,2,202
+356,2014,Firearm Types Stolen & Recovered,Shotgun,1,203
+256,2015,Firearms Seized,Air Gun,600,204
+205,2017,Firearm Types Stolen & Recovered,Starter's Pistol,1,205
+257,2015,Firearms Seized,Rifle,515,206
+258,2015,Firearms Seized,Pistol,352,207
+259,2015,Firearms Seized,Shotgun,224,208
+206,2016,Firearms Seized,Air Gun,588,209
+260,2015,Firearms Seized,Revolver,178,210
+207,2016,Firearms Seized,Rifle,548,211
+261,2015,Firearms Seized,Replica,37,212
+208,2016,Firearms Seized,Pistol,366,213
+262,2015,Firearms Seized,Starter's Pistol,35,214
+209,2016,Firearms Seized,Shotgun,253,215
+263,2015,Firearms Seized,Other,34,216
+210,2016,Firearms Seized,Revolver,157,217
+264,2015,Firearms Seized,Toy Gun,31,218
+211,2016,Firearms Seized,Other,57,219
+265,2015,Firearms Seized,Sawed-off Shotgun,13,220
+212,2016,Firearms Seized,Starter's Pistol,45,221
+266,2015,Firearms Seized,Sawed-off Rifle,9,222
+213,2016,Firearms Seized,Toy Gun,26,223
+267,2015,Firearms Seized,Submachine Gun,8,224
+214,2016,Firearms Seized,Sawed-off Shotgun,25,225
+268,2015,Firearms Seized,Antique,5,226
+215,2016,Firearms Seized,Submachine Gun,19,227
+269,2015,Firearms Seized,Combination Gun,4,228
+216,2016,Firearms Seized,Antique,11,229
+270,2015,Guns Reported Stolen to TPS,Air Gun,13,230
+217,2016,Firearms Seized,Sawed-off Rifle,9,231
+271,2015,Guns Reported Stolen to TPS,Replica,13,232
+218,2016,Firearms Seized,Replica,8,233
+272,2015,Guns Reported Stolen to TPS,Handgun,8,234
+219,2016,Firearms Seized,Combination Gun,4,235
+273,2015,Guns Reported Stolen to TPS,Rifle,5,236
+220,2016,Firearms Seized,Machine Gun,1,237
+274,2015,Guns Reported Stolen to TPS,Shotgun,3,238
+275,2015,Firearm Thefts - Premise Type,Residential,10,239
+276,2015,Firearm Thefts - Premise Type,Vehicle,5,240
+277,2015,Firearm Thefts - Premise Type,Commercial,1,241
+278,2015,Firearm Thefts - Premise Type,Other,1,242
+279,2015,Gun Seizures,Crime,579,243
+280,2015,Gun Seizures,Non-Crime,1466,244
+281,2015,Crime Guns - Type,Pistol,165,245
+282,2015,Crime Guns - Type,Air Gun,125,246
+283,2015,Crime Guns - Type,Rifle,117,247
+284,2015,Crime Guns - Type,Revolver,68,248
+285,2015,Crime Guns - Type,Shotgun,42,249
+286,2015,Crime Guns - Type,Sawed-off Shotgun,13,250
+287,2015,Crime Guns - Type,Starter's Pistol,12,251
+288,2015,Crime Guns - Type,Other,11,252
+289,2015,Crime Guns - Type,Sawed-off Rifle,9,253
+290,2015,Crime Guns - Type,Toy Gun,8,254
+291,2015,Crime Guns - Type,Submachine Gun,6,255
+292,2015,Crime Guns - Type,Replica,1,256
+293,2015,Crime Guns - Type,Combination Gun,1,257
+294,2015,Crime Guns - Type,Antique,1,258
+295,2015,Crime Guns - Class,Prohibited,160,259
+296,2015,Crime Guns - Class,Non-Restricted,156,260
+297,2015,Crime Guns - Class,Deemed Non-Firearm,154,261
+298,2015,Crime Guns - Class,Restricted,101,262
+299,2015,Crime Guns - Class,Antique,6,263
+300,2015,Crime Guns - Class,Unknown,2,264
+301,2015,Recovered Firearms,Toronto,2,265
+302,2015,Recovered Firearms,Outside Toronto,14,266
+303,2015,Firearm Types Stolen & Recovered,Pistol,10,267
+304,2015,Firearm Types Stolen & Recovered,Rifle,6,268
+305,2014,Firearms Seized,Air Gun,471,269
+306,2014,Firearms Seized,Rifle,366,270
+221,2016,Guns Reported Stolen to TPS,Handgun,50,271
+222,2016,Guns Reported Stolen to TPS,Air Gun,30,272
+223,2016,Guns Reported Stolen to TPS,Shotgun,4,273
+224,2016,Guns Reported Stolen to TPS,Rifle,3,274
+225,2016,Guns Reported Stolen to TPS,Replica,1,275
+226,2016,Guns Reported Stolen to TPS,Starter's Pistol,1,276
+227,2016,Firearm Thefts - Premise Type,Residential,13,277
+228,2016,Firearm Thefts - Premise Type,Commercial,6,278
+229,2016,Firearm Thefts - Premise Type,Vehicle,2,279
+230,2016,Firearm Thefts - Premise Type,Street,1,280
+231,2016,Gun Seizures,Crime,509,281
+232,2016,Gun Seizures,Non-Crime,1608,282
+233,2016,Crime Guns - Type,Pistol,199,283
+234,2016,Crime Guns - Type,Air Gun,105,284
+235,2016,Crime Guns - Type,Rifle,49,285
+236,2016,Crime Guns - Type,Revolver,49,286
+237,2016,Crime Guns - Type,Other,26,287
+238,2016,Crime Guns - Type,Sawed-off Shotgun,25,288
+239,2016,Crime Guns - Type,Shotgun,23,289
+240,2016,Crime Guns - Type,Toy Gun,10,290
+241,2016,Crime Guns - Type,Sawed-off Rifle,9,291
+242,2016,Crime Guns - Type,Starter's Pistol,8,292
+243,2016,Crime Guns - Type,Antique,4,293
+244,2016,Crime Guns - Type,Replica,1,294
+245,2016,Crime Guns - Type,Combination Gun,1,295
+246,2016,Crime Guns - Class,Prohibited,186,296
+247,2016,Crime Guns - Class,Deemed Non-Firearm,141,297
+248,2016,Crime Guns - Class,Restricted,119,298
+249,2016,Crime Guns - Class,Non-Restricted,60,299
+250,2016,Crime Guns - Class,Antique,3,300
+251,2016,Recovered Firearms,Toronto,6,301
+252,2016,Recovered Firearms,Outside Toronto,18,302
+253,2016,Firearm Types Stolen & Recovered,Pistol,15,303
+254,2016,Firearm Types Stolen & Recovered,Revolver,7,304
+255,2016,Firearm Types Stolen & Recovered,Rifle,2,305
+1,2020,Firearms Seized,Air Gun,585,306
+2,2020,Firearms Seized,Pistol,523,307
+3,2020,Firearms Seized,Rifle,313,308
+4,2020,Firearms Seized,Shotgun,170,309
+5,2020,Firearms Seized,Revolver,57,310
+6,2020,Firearms Seized,Other,85,311
+7,2020,Firearms Seized,Toy Gun,24,312
+8,2020,Firearms Seized,Sawed-off Shotgun,14,313
+9,2020,Firearms Seized,Starter's Pistol,23,314
+10,2020,Firearms Seized,Antique,2,315
+11,2020,Firearms Seized,Sawed-off Rifle,8,316
+12,2020,Firearms Seized,Replica,15,317
+13,2020,Firearms Seized,Derringer,1,318
+14,2020,Firearms Seized,Commercial Version,9,319
+15,2020,Firearms Seized,Submachine Gun,11,320
+16,2020,Firearms Seized,Machine Gun,0,321
+17,2020,Firearms Seized,Combination Gun,4,322
+18,2020,Guns Reported Stolen to TPS,Air Gun,5,323
+19,2020,Guns Reported Stolen to TPS,Handgun,24,324
+20,2020,Guns Reported Stolen to TPS,Shotgun,6,325
+21,2020,Guns Reported Stolen to TPS,Rifle,8,326
+22,2020,Firearm Thefts - Premise Type,Residential,8,327
+23,2020,Firearm Thefts - Premise Type,Vehicle,4,328
+24,2020,Firearm Thefts - Premise Type,Commercial,2,329
+25,2020,Firearm Thefts - Premise Type,School,1,330
+26,2020,Gun Seizures,Crime,663,331
+27,2020,Gun Seizures,Non-Crime,1181,332
+28,2020,Crime Guns - Type,Pistol,367,333
+29,2020,Crime Guns - Type,Air Gun,102,334
+30,2020,Crime Guns - Type,Rifle,48,335
+31,2020,Crime Guns - Type,Revolver,45,336
+32,2020,Crime Guns - Type,Shotgun,33,337
+33,2020,Crime Guns - Type,Sawed-off Shotgun,13,338
+34,2020,Crime Guns - Type,Other,13,339
+35,2020,Crime Guns - Type,Toy Gun,8,340
+36,2020,Crime Guns - Type,Sawed-off Rifle,8,341
+37,2020,Crime Guns - Type,Antique,1,342
+38,2020,Crime Guns - Type,Derringer,1,343
+39,2020,Crime Guns - Type,Submachine Gun,11,344
+40,2020,Crime Guns - Type,Starter's Pistol,7,345
+41,2020,Crime Guns - Type,Commercial Version,6,346
+42,2020,Crime Guns - Class,Prohibited,318,347
+43,2020,Crime Guns - Class,Deemed Non-Firearm,129,348
+44,2020,Crime Guns - Class,Restricted,144,349
+45,2020,Crime Guns - Class,Non-Restricted,67,350
+46,2020,Crime Guns - Class,Antique,5,351
+47,2020,Recovered Firearms,Toronto,7,352
+48,2020,Recovered Firearms,Outside Toronto,25,353
+49,2020,Firearm Types Stolen & Recovered,Pistol,20,354
+50,2020,Firearm Types Stolen & Recovered,Revolver,6,355
+51,2020,Firearm Types Stolen & Recovered,Rifle,3,356
